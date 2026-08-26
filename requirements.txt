@@ -4,3 +4,7 @@ numpy
 pymongo
 scipy
 scikit-learn
+certifi
+
+#-e . # It tells pip: "Do not copy these project files to the python site-packages folder. Instead, leave them exactly where they are on the hard drive, but create a shortcut link to them."
+     # The . (Current Directory): It tells pip to look inside the exact folder you are currently standing in to find a configuration file (like your setup.py).
